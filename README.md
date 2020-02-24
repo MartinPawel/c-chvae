@@ -1,0 +1,3 @@
+# C-CHVAE
+
+Counterfactual explanations can be obtained by identifying the smallest change made to an input vector to influence a prediction in a positive way. Classic examples can be found in credit scoring or health contexts where one tries to change a classifier's decision from ’loan rejected’ to ’awarded’ or from ’high risk of cardiovascular disease’ to ’low risk’. Our approach ensures that the produced counterfactuals are **proximate** (i.e., not local outliers) and **connected** to regions with substantial data density (i.e., close to correctly classified observations), two requirements known as **counterfactual faithfulness**.

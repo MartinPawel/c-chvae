@@ -8,3 +8,21 @@ We suggest embedding counterfactual search into a data density approximator, her
 
 ## On running the (C-)HVAE
 To run the HVAE you have to predefine each input's type: you can choose one of the following: *real* (for inputs defined on the real line), *pos* (for inputs defined on positive part of R), *count* (for count inputs), *cat* (for categorical inputs) and *ordinal* (for ordinal inputs). To see an example, have a look at the *types*.csv files within the *data* folder.
+
+
+## Bibtex 
+```
+@inproceedings{pawelczyk_learning2019,
+author = {Pawelczyk, Martin and Broelemann, Klaus and Kasneci, Gjergji},
+title = {Learning Model-Agnostic Counterfactual Explanations for Tabular Data},
+year = {2020},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+pages = {3126–3132},
+numpages = {7},
+keywords = {Transparency, Counterfactual explanations, Interpretability},
+location = {Taipei, Taiwan},
+series = {WWW '20}
+}
+```
+
